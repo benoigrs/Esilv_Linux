@@ -139,3 +139,14 @@ ls -la credentials.txt
 nano credentials.txt
 cat credentials.txt
 ```
+#### Others
+```
+#add executable to owner
+chmod u+x credentials.txt
+
+#remove read permission for others
+chmod go-r credentials.txt
+
+#change to rwx for all
+chmod 777 credentials.txt
+```
