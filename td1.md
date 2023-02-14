@@ -94,3 +94,26 @@ cp -r notes notes_2023
 rm -rv notes
 ```
 
+## Exo 3
+
+#### 1
+```
+touch script1.sh
+```
+#### 2
+```
+nano script1.sh 
+
+->Echo "Script running please wait...
+->Echo "Done!"
+```
+#### 4
+```
+cat script1.sh
+```
+#### 5
+```
+chmod +x script1.sh
+./script1.sh
+```
+
