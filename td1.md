@@ -116,4 +116,26 @@ cat script1.sh
 chmod +x script1.sh
 ./script1.sh
 ```
-
+## Exo 4
+### Exo4.1
+#### 1
+```
+touch credentials.txt
+nano credentials.txt
+cat credentials.txt
+ls -la credentials.txt
+```
+#### 2
+```
+chmod a=r credentials.txt
+ls -la crendentials.txt
+nano credentials.txt
+cat credentials.txt
+```
+#### 3
+```
+chmod a=wr credentials.txt
+ls -la credentials.txt
+nano credentials.txt
+cat credentials.txt
+```
