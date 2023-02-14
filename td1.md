@@ -50,3 +50,47 @@ cd test
 ``` 
 pwd
 ``` 
+
+## Exo 2
+
+#### 1
+```
+cd ~
+```
+#### 2
+```
+pwd
+```
+#### 3
+```
+mkdir linux_ex_1
+```
+#### 4
+```
+cd linux_ex_1
+```
+#### 5
+```
+touch benoit_gras.txt
+```
+#### 6
+```
+mkdir notes
+```
+#### 7
+```
+mv benoit_gras.txt notes/
+```
+#### 8
+```
+mv benoit_gras.txt benoit_gras_2023.txt
+```
+#### 9
+```
+cp -r notes notes_2023
+```
+#### 10
+```
+rm -rv notes
+```
+
