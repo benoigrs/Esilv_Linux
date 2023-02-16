@@ -150,3 +150,70 @@ chmod go-r credentials.txt
 #change to rwx for all
 chmod 777 credentials.txt
 ```
+
+### Exo 4.2
+#### 1
+```
+cd /
+```
+#### 2
+```
+sudo touch .private_file
+sudo nano .private_file
+cat .private_file
+ls -la
+```
+#### 3
+```
+nano .private_file
+"Permission denied"
+cat .private_file
+```
+#### 4
+```
+sudo nano .private_file
+cat .private_file
+```
+#### 5
+```
+sudo chmod 777 .private_file
+nano .private_file
+"permission denied"
+cat .private_file
+```
+### Exo 4.3
+#### 1
+```
+chmod a=rw .private_file
+"Operation not permitted"
+```
+#### 2
+```
+sudo chown $USER .private_file
+```
+#### 3
+```
+chmod a=rw .private_file
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
