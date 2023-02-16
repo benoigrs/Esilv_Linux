@@ -196,6 +196,20 @@ sudo chown $USER .private_file
 chmod a=rw .private_file
 ```
 
+### Exo 4.4
+```
+sudo apt update
+sudo apt upgrade
+sudo apt install cmatrix
+cmatrix
+^c
+
+sudo apt install tmux
+echo "Hello Session 0"
+cmatrix 
+^bd
+
+```
 
 
 
