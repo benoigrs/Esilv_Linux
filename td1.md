@@ -205,9 +205,15 @@ cmatrix
 ^c
 
 sudo apt install tmux
+tmux
 echo "Hello Session 0"
 cmatrix 
 ^bd
+
+tmux
+echo "Hello Session 1"
+
+
 
 ```
 
