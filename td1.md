@@ -71,7 +71,7 @@ cd linux_ex_1
 ```
 #### 5
 ```
-touch benoit_gras.txt
+touch notes
 ```
 #### 6
 ```
@@ -124,6 +124,10 @@ touch credentials.txt
 nano credentials.txt
 cat credentials.txt
 ls -la credentials.txt
+```
+ou bien
+```
+echo "infos" > credentials.txt
 ```
 #### 2
 ```
